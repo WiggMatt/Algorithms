@@ -26,8 +26,8 @@ package LeetCode;
  * }
  */
 
-public class MergeTwoSortedLists (ListNode l1, l2) {
-    if (l1 == null) {
+/*public  class MergeTwoSortedLists(ListNode l1, ListNode l2) {
+        if (l1 == null) {
         return l2;
     }
     if (l2 == null) {
@@ -41,7 +41,6 @@ public class MergeTwoSortedLists (ListNode l1, l2) {
         l2.next = MergeTwoSortedLists(l1, l2.next);
         return l2;
     }
-
 }
 
 class ListNode {
@@ -56,4 +55,4 @@ class ListNode {
         this.val = val;
         this.next = next;
     }
-}
+}*/
